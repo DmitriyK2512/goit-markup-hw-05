@@ -314,6 +314,26 @@ body {
 .work-list-item {
     flex-basis: calc((100%-60px)/3)
 }
+/* ///// текст над фото ///////////////// */
+
+.work-img-wrapper{
+    position: relative;
+}
+.work-img-text{
+    position: absolute;
+    width: 100%;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    color: var(--secondary-color-w);
+    background-color: rgba(47, 48, 58, 0.8);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    transform: translateY(-100%);
+}
+
 
 /* ===========   WORK   ===================== */
 /* ===========   TEAM   ===================== */
@@ -376,6 +396,7 @@ body {
     height: 44px;
     border-radius: 50%;
     background-color: var(--secondary-color-w);
+    /* transition:cubic-bezier(0.4, 0, 0.2, 1); */
 
 }
 
