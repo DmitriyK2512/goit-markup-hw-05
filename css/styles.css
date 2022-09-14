@@ -433,21 +433,14 @@ body {
 }
 
 .team-social-icon {    
-    fill: currentColor;   
-   
-
+    fill: currentColor; 
 }
 
 /* --------- hover,focus ----------- */
-.team-social-link:hover .team-social-icon,
-.team-social-link:focus .team-social-icon {
-    fill: var(--secondary-color-w);
-
-}
-
 .team-social-link:hover,
 .team-social-link:focus {
-    background-color: var(--accent-color); 
+    background-color: var(--accent-color);
+    color: var(--secondary-color-w); 
  
 } 
 
@@ -469,7 +462,7 @@ body {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     color:#afb1b8 ;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), 
                 color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }        
     
@@ -477,15 +470,11 @@ body {
 .client-link-icon {
     fill: currentColor;
 }
-
-.client-link:hover .client-link-icon,
-.client-link:focus .client-link-icon {
-    fill: var(--accent-color);
-}
-
+ 
 .client-link:hover,
 .client-link:focus {
     border: 1px solid var(--accent-color);
+    color: var(--accent-color);
 }
 
 
